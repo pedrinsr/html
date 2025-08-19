@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: darkseagreen;
+}
+
+h1{
+    font-size: 80px
+}
+
+.classe-h1{
+    font-size: 60px;
+}
+
+.classe-do-h1{
+    color:#9d007a
+
+}
+
+
+#id_h1{
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Meu primeiro CSS</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <style>
+        .css-interno{
+            font-size: 70px;
+            background-color: brown;
+        }
+
+         h1{
+            color: #429867;
+        }
+        p{
+            font-size: 30px;
+        }
+        ul{
+            background-color: #042930;
+            color: aliceblue;
+            font-size: 20px;
+        }
+
+    </style>
+
+
+</head>
+
+
+
+<body>
+    <h1>OLÁ MUNDO</h1>
+    <h1 class="classe-h1 classe-do-h1" id="id-do-h1">OLÁ MUNDO</h1>
+    <h1 id="id_h1">OLÁ MUNDO</h1>
+    <h2 style="color: blue;">Css-inline</h2>
+    <h2 class="css-interno">Css-interno</h2>
+    <p style="color:blueviolet; font-size: 30px; " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, qui omnis! Itaque ea laudantium provident! Ut quisquam dicta et reprehenderit in veritatis, cumque fugiat distinctio est iste, nisi cupiditate adipisci!</p>
+
+    <h1>TALVEZ AMANHÃ</h1>
+    <P>Nem sempre é fracasso</P>
+    <ul>Cada passo importa</ul>
+
+
