@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ===== Header ===== -->
+    <header>
+        <div class="container">
+            <h1>Pedro Henrique</h1>
+            <nav>
+                <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== Seção Sobre ===== -->
+    <section id="sobre" class="section">
+        <div class="container sobre-container">
+            <img src="pedro edit.JPG" alt="Foto de Perfil" class="perfil">
+            <div>
+            <h2>Sobre mim</h2>
+            <p>Profissional com experiência em ambientes dinâmicos, com foco em resultados, organização e bom relacionamento interpessoal. Habilidade em trabalhar em equipe, cumprir prazos e aprender novas atividades com rapidez. Comprometido, proativo e com boa capacidade de adaptação a diferentes desafios.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Seção Habilidades ===== -->
+    <section id="habilidades" class="section">
+        <div class="container">
+            <h2>Habilidades</h2>
+            <ul class="skills">
+                <li>HTML5</li>
+                <li>CSS3 (Flexbox & Grid)</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ===== Seção Projetos ===== -->
+    <section id="projetos" class="section">
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="projetos-grid">
+                <div class="projeto-card">
+                    <h3>Projeto 1</h3>
+                    <p>Descrição breve do projeto.</p>
+                </div>
+                <div class="projeto-card">
+                    <h3>Projeto 2</h3>
+                    <p>Descrição breve do projeto.</p>
+                </div>
+                <div class="projeto-card">
+                    <h3>Projeto 3</h3>
+                    <p>Descrição breve do projeto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Seção Contato ===== -->
+    <section id="contato" class="section">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato pelas redes sociais ou pelo formulário abaixo:</p>
+
+            <div class="contato-grid">
+                <div class="socials">
+                    <a href="#">LinkedIn</a>
+                    <a href="https://github.com/pedrinsr/html">GitHub</a>
+                    <a href="#">Twitter</a>
+                </div>
+
+                <form>
+                    <input type="text" placeholder="Seu nome" required>
+                    <input type="email" placeholder="Seu e-mail" required>
+                    <textarea placeholder="Sua mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Rodapé ===== -->
+    <footer>
+        <p>© 2025 Pedro Henrique - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6;
+    background: #f4f4f9;
+    color: #333;
+}
+
+/* ===== Header ===== */
+header {
+    background: #222;
+    color: #fff;
+    padding: 1rem 0;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+header nav ul li a:hover {
+    color: #0d7b07;
+}
+
+/* ===== Seções ===== */
+.section {
+    padding: 60px 20px;
+}
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+h2 {
+    margin-bottom: 20px;
+    color: #222;
+}
+
+/* ===== Sobre ===== */
+.sobre-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.perfil {
+    width: 200px;
+    border-radius: 35%;
+    border: 3px solid #ccc;
+}
+
+/* ===== Habilidades ===== */
+.skills {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.skills li {
+    background: #078222;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* ===== Projetos ===== */
+.projetos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.projeto-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* ===== Contato ===== */
+.contato-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form input, form textarea, form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    background: #078222;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+form button:hover {
+    background: #078222;
+}
+
+/* ===== Rodapé ===== */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: #fff;
+    margin-top: 40px;
+}
+
+/* ===== Responsividade ===== */
+@media (max-width: 768px) {
+    .sobre-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .contato-grid {
+        grid-template-columns: 1fr;
+    }
+}
