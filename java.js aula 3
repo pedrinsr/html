@@ -1,0 +1,63 @@
+<body>
+    
+    <script src="java.js" ></script>
+
+</body>
+
+
+
+
+
+// let numero = 0;
+
+// while(numero < 10) {
+//     console.log(numero);
+//     numero ++;
+// }
+
+
+
+
+
+
+
+
+// let numero = 0;
+// do {
+//     numero = Number(prompt("Digite um número negativo"));
+//     if (numero >=0) {
+//     console.log ("você digitou", numero);
+//     }
+//     else {
+//         console.log ("encerrando");
+//     }
+
+// } while (numero >=0);
+
+
+
+
+
+
+// const numerosecreto = 7;
+// let tentativa = 0;
+
+// while(true) {
+//     tentativa = Number(prompt("adivinhe o número entre 1 e 10:"));
+
+//     if (tentativa === numerosecreto) {
+//         alert("parabéns! voce acertou!");
+//         break;
+//     }
+    
+//     else {
+//         alert("tente novamente");
+//     }
+
+
+
+
+// }
+
+
+
