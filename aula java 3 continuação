@@ -1,0 +1,56 @@
+// let numero = parseInt(prompt("digite um numero positivo"))
+// let soma = 0;
+// let i = 1;
+
+// if(numero > 0) {
+
+
+
+// while (i <= numero) {
+//     soma += i;
+//     i++;
+// }
+
+// console.log("a soma de 1 ate" + numero + " é:" + soma);
+// }
+
+
+// else {
+//     console.log("insira um numero positivo.");
+// }
+
+
+
+
+// for (let i = 1; i <= 20; i++) {
+
+
+//     if (i % 3 === 0) {
+//         continue;
+//     } 
+    
+//     if (i > 15) {
+//         break;
+//     }
+
+//     console.log (i);
+
+// }
+
+
+
+
+
+
+const texto = prompt("Digite uma frase");
+conta_vogal = 0;
+
+for (const caractere of texto) {
+    console.log(caractere);
+}
+
+if (caractere in "aeiou" || "AEIOU"){
+    conta_vogal ++;
+}
+
+console.log("A quantidade de vogais na frase é: ", conta_vogal);
