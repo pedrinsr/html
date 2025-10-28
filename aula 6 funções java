@@ -1,0 +1,148 @@
+// function exibirMensagem() {
+//   console.log("bem vindo ao java");
+// }
+
+// exibirMensagem ()
+
+
+
+// function mostrarnome(nome){
+//     alert (nome)
+// }
+
+// mostrarnome ("Pedro")
+
+
+
+// function calcular_desconto(preco, desconto = 10) {
+//   let precoFinal = preco - (preco * desconto / 100);
+//   console.log(precoFinal);
+// }
+
+// calcular_desconto(100);      
+// calcular_desconto(200, 20);
+
+
+
+
+
+// function verificar_idade(idade) {
+//   if (idade >= 18) {
+//     console.log("Maior de idade");
+//   } else {
+//     console.log("Menor de idade");
+//   }
+// }
+
+// let idade = prompt("Digite sua idade:");
+// verificar_idade(idade);
+
+
+
+
+
+
+// function cumprimentar(nome = "visitante", hora = 12) {
+//   if (hora < 12) {
+//     console.log(`Bom dia, ${nome}!`);
+//   } else if (hora < 18) {
+//     console.log(`Boa tarde, ${nome}!`);
+//   } else {
+//     console.log(`Boa noite, ${nome}!`);
+//   }
+// }
+
+// cumprimentar("Ana", 9);
+// cumprimentar("Carlos", 15);
+// cumprimentar("Julia", 20); 
+// cumprimentar();        
+
+
+
+
+
+// function cumprimentar(nome = "visitante", hora = 12) {
+//   if (hora < 12) {
+//     console.log("Bom dia, " + nome + "!");
+//   } else if (hora < 18) {
+//     console.log("Boa tarde, " + nome + "!");
+//   } else {
+//     console.log("Boa noite, " + nome + "!");
+//   }
+// }
+
+// // Exemplos de uso:
+// cumprimentar("Ana", 9);  
+// cumprimentar("Carlos", 15); 
+// cumprimentar("Julia", 20);
+// cumprimentar();        
+
+
+
+
+// function calcularSoma(...numeros) {
+  
+//   let soma = 0;
+
+//   for (let n of numeros) {
+//     soma += n;
+//   }
+
+//   console.log("A soma é:", soma);
+// }
+
+// calcularSoma(2, 3);
+// calcularSoma(10, 20, 30);
+// calcularSoma(5, 10, 15, 20, 25);
+// calcularSoma();               
+
+
+
+// function saudacao(nome) {
+//   return "Olá, " + nome + "!";
+// }
+
+
+// console.log(saudacao("Maria"));
+// console.log(saudacao("João")); 
+
+
+
+// function saudacao(nome) {
+//   if (!nome) {
+//     return "Olá, visitante!";
+//   } else {
+//     return "Olá, " + nome + "!";
+//   }
+// }
+
+
+// let nomeUsuario = prompt("Digite seu nome:");
+
+// alert(saudacao(nomeUsuario));
+
+
+let soma = function(a, b) {
+  return a + b;
+};
+
+
+let subtracao = function(a, b) {
+  return a - b;
+};
+
+
+let multiplicacao = function(a, b) {
+  return a * b;
+};
+
+
+console.log("Soma: " + soma(8, 5));    
+console.log("Subtração: " + subtracao(10, 3)); 
+console.log("Multiplicação: " + multiplicacao(4, 6)); 
+console.log("Soma: " + soma(15, 20));     
+console.log("Subtração: " + subtracao(50, 30)); 
+console.log("Multiplicação: " + multiplicacao(7, 8));
+
+
+// console.log(saudacao(nomeUsuario));
