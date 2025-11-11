@@ -1,0 +1,54 @@
+// let carro = {
+//   marca: "Toyota",
+//   modelo: "Corolla",
+//   ano: 2025
+// };
+
+// console.log(carro.marca);
+// console.log(carro.modelo);
+// console.log(carro.ano);
+
+
+
+
+
+// let livro = {
+//   titulo: "Quarteto fantastico",
+//   autor: "Stan lee",
+//   ano: 2025,
+//   editora: "Marvel Comics"
+// };
+
+// let { titulo, autor } = livro;
+
+
+// console.log("Título:", titulo);
+// console.log("Autor:", autor);
+
+
+
+
+// ativ 5
+
+
+
+let carro1 = {
+  marca: "Toyota",
+  modelo: "Corolla",
+  ano: 2020
+};
+
+let carro2 = {
+  marca: "Honda",
+  modelo: "Civic",
+  ano: 2022
+};
+
+
+let carroCombinado = {
+  ...carro1,
+  ...carro2
+};
+
+console.log(carroCombinado);
+
