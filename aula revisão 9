@@ -1,0 +1,26 @@
+<script src="java.js" ></script>
+
+
+
+function exibirBoasVindas() {
+    console.log("Bem-vindo ao curso de JavaScript!");
+}
+
+exibirBoasVindas();
+exibirBoasVindas();
+
+
+
+
+
+
+function saudarUsuario(nome) {
+    console.log("Olá, " + nome + "!");
+}
+
+saudarUsuario("Rafa");
+saudarUsuario("Pedro");
+saudarUsuario("Cora");
+
+
+
