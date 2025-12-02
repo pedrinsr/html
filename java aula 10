@@ -1,0 +1,117 @@
+<script src="java.js" ></script>
+
+
+*html sempre antes do java, quando lincado direto no html*
+
+
+
+  ***css estiliza página***
+  **java script edita funcionalidade**
+
+ ****quando for criar a cara do site, sempre no html, estilazação no css e funcionalidade no java!!!
+
+
+
+
+
+
+
+
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .especial {
+            color: blue;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <p></p>
+    <p></p>
+    <p></p>
+
+    <script>
+        let listaTagsP = document.getElementsByTagName("p")
+        for( let tagP of listaTagsP){
+            tagP.innerHTML = "Infinity School"
+            tagP.setAttribute("class","especial")
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+*html*
+
+
+
+              <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        .box{
+            background-color: blue;
+        }
+    </style>
+</head>
+
+
+<body>
+    
+<!-- <p>Parágrafo 1</p>
+<p>Parágrafo 2</p>
+<p>Parágrafo 3</p> -->
+
+
+
+<div><p>1</p></div>
+<div><p>2</p></div>
+<div><p>2</p></div>
+
+
+  
+
+<script src="java.js" ></script>
+
+
+
+
+</body>
+</html>
+
+
+
+
+*java*
+
+
+
+
+    // let ListaDePs= document.getElementsByTagName("p")
+// for(let tagP of ListaDePs){
+//     tagP.innerHTML= "PEDRO"
+// }
+
+
+let Divs = document.querySelectorAll("div")
+
+for(let div of Divs){
+    div.setAttribute("class", "box")
+}
+
+
+
+  
+  
