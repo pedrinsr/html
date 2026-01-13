@@ -1,0 +1,30 @@
+const usuarios = [
+  { id: 1, nome: "Ana" },
+  { id: 2, nome: "Carlos" },
+  { id: 3, nome: "João" }
+];
+
+let idBuscado = 5;
+let lista_ids = []
+try{
+for(let user of usuarios){
+    lista_ids.push(user.id)
+    if(user.id === idBuscado){
+        console.log(user.nome)
+    }
+
+   
+}
+ if(!lista_ids.includes(idBuscado)){
+ throw new Error("O usuário não foi encontrado")
+    }
+}catch(erro){
+console.log(erro.message)
+}
+
+
+
+
+
+
+
