@@ -1,0 +1,75 @@
+HTML
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<script src="java.js" ></script>
+
+ <input type="text" id="cep">
+    <button onclick="pegarCEP()">procurar dados</button>
+
+
+
+</body>
+</html>
+
+
+
+
+
+///////////////////////
+
+JAVA
+
+
+
+
+// let dados= {
+//     nome: "Pedro",
+//     idade: 30,
+//     cidade: "São Paulo",
+
+// };
+
+// let pessoaJSON = JSON.stringify(dados);
+
+// console.log(pessoaJSON);
+
+
+
+//       function pegarCEP(){
+
+            
+//                 let cep = document.getElementById("cep").value
+//                 console.log(cep)
+
+//   fetch(`https://viacep.com.br/ws/${cep}/json/`)
+//         .then(resposta => resposta.json())
+//         .then(dados => {console.log(dados)
+//             let tagP = document.createElement("p")
+//              let tagP2 = document.createElement("p")
+//              let tagP3 = document.createElement("p")
+//              let tagP4 = document.createElement("p")
+//              let tagP5 = document.createElement("p")
+
+
+//             tagP.innerHTML = dados.bairro
+//              tagP2.innerHTML = dados.logradouro
+//              tagP3.innerHTML = dados.regiao
+//              tagP4.innerHTML = dados.estado
+//              tagP5.innerHTML = dados.cep
+
+
+//             let body = document.body
+//             body.append(tagP,tagP2,tagP3,tagP4,tagP5)
+//         })
+//         }
+
