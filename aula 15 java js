@@ -1,0 +1,20 @@
+fetch("https://api.disneyapi.dev/character")
+       .then(resposta_da_api => resposta_da_api.json())
+       .then(dados => {
+        console.log(dados)
+    //     console.log(dados.data[0].imageUrl
+    //    )
+        for(let i = 0; i < dados.data.length;i++){
+            let img = document.createElement("img")
+            let p = document.createElement("p")
+            let p2 = document.createElement('p')
+            let a = document.createElement('a')
+            p.innerHTML = dados.data[i].name
+            p2.innerHTML =dados.data[i].tvShows[0]
+            a.innerHTML = dados.data[i].url
+            img.src = dados.data[i].imageUrl
+            let body = document.body
+            body.append(img,p,p2,a)
+
+
+        }})
