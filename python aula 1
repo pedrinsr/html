@@ -1,0 +1,41 @@
+aula.py
+
+
+
+# nome = input("digite o seu nome: ")
+# print(nome)
+# idade = input("Digite sua idade: ")
+# print(idade)
+# altura = input ("Digite sua altura: ")
+# print(altura)
+# cep = int(input ("Digite seu cep: "))
+# print(cep)
+# profissão = input ("Digite sua profissão: ")
+# print(profissão)
+# escolaridade = input ("Digite sua escolaridade: ")
+# print(escolaridade)
+# peso = input("Digite seu peso: ")
+# print(peso)
+
+
+
+# pi = 3.14159
+# print(f"O valor de pi com duas casas decimais é {pi:.2f}.")
+
+
+
+# nota1 = float(input("Digite a 1ª nota bimestral: "))
+# nota2 = float(input("Digite a 2ª nota bimestral: "))
+# nota3 = float(input("Digite a 3ª nota bimestral: "))
+# nota4 = float(input("Digite a 4ª nota bimestral: "))
+
+# media = (nota1 + nota2 + nota3 + nota4)
+
+# print("A média das notas é:", media)
+
+
+salario_mensal = float(input("Digite quanto você ganha por mês: R$ "))
+horas_semanais = float(input("Digite o número de horas trabalhadas por semana: "))
+horas_mensais = horas_semanais * 4.33
+salario_por_hora = salario_mensal / horas_mensais
+print(f"Seu salário por hora é: R$ {salario_por_hora:.2f}")
