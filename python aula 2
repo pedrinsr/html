@@ -1,0 +1,42 @@
+idade1 = int(input("digite sua idade"))
+idade2 = int(input("digite sua idade"))
+
+if idade1 > idade2:
+ print
+ ("a primeira idade é maior que a segunda.")
+if idade1 < idade2:
+    print("a primeira idade é menor que a segunda.")
+else:
+    print("as duas idades são iguais.")
+
+
+
+
+palavra1 = input("digite a primeira palavra.")
+palavra2 = input("digite a segunda palavra.")
+
+if palavra1 == palavra2:
+    print("as palavras são iguais.")
+else:
+    print("as palavras são diferentes.")
+
+
+numero = int(input("digite um número"))
+
+if numero % 2 == 0:
+    print("o número é par")
+else:
+    print("o número é ímpar")
+
+
+
+
+nota = float(input("digite a nota do aluno:"))
+
+if nota>=6:
+    print("aprovado")
+
+else:
+    print("reprovado")
+
+
